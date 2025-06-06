@@ -13,7 +13,7 @@ const projects = [
   {
     name: "Sistema de Transporte",
     description:
-      "Sistema de transporte para la empresa de transporte intermunicipal para venta de tiquetes y registro de remesas, separado en backend en Laravel y frontend en React y base de datos en MySQL.",
+      "Sistema para empresas de transporte intermunicipal funciones de venta de tiquetes y registro de remesas, separado en backend en Laravel y frontend en React y base de datos en MySQL.",
     image: project2,
   },
   // {
