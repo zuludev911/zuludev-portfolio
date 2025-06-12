@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // Redirige cualquier 404 a index.html con la ruta original
+      const redirectTo = location.pathname.replace(/\/$/, "");
+      location.replace("/?" + redirectTo);
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,17 +1,14 @@
-import Header from "./components/Header";
-import AboutMeSection from "./components/AboutMeSection";
-import MyProjects from "./components/MyProjects";
-import Contact from "./components/Contact";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import PolicyScreen from "./PolicyScreen";
 import "./App.css";
 
 function App() {
   return (
-    <div className="scroll-container">
-      <Header />
-      <AboutMeSection />
-      <MyProjects />
-      <Contact />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/private-policy-truthordareapp" element={<PolicyScreen />} />
+    </Routes>
   );
 }
 
